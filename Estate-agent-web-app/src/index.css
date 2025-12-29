@@ -1,68 +1,73 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+/* Global base */
+* {
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 0.5rem;
+}
+
+.app-shell {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.app-header {
+  background: #0044cc;
+  color: #fff;
+  padding: 1rem;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.app-header h1 {
+  font-size: 1.5rem;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+.app-content {
+  flex: 1;
+  padding: 1rem;
+}
+
+.app-footer {
+  padding: 0.75rem 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+  background: #fff;
+  border-top: 1px solid #ddd;
+}
+
+/* Layout for search page: main content + favourites side panel */
+.layout-main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+}
+
+/* Responsive: below 1024px (smaller than iPad landscape) stack layout */
+@media (max-width: 1024px) {
+  .layout-main {
+    grid-template-columns: 1fr;
   }
-  a:hover {
-    color: #747bff;
+
+  .app-header h1 {
+    font-size: 1.25rem;
   }
-  button {
-    background-color: #f9f9f9;
+
+  .app-content {
+    padding: 0.5rem;
   }
 }
