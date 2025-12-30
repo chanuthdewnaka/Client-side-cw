@@ -1,0 +1,89 @@
+.property-card {
+  display: flex;
+  gap: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0.75rem;
+  background: #fafafa;
+}
+
+.property-card-image-wrapper {
+  flex: 0 0 140px;
+}
+
+.property-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.property-card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.property-card-title {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.property-card-location {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.25rem;
+}
+
+.property-card-meta {
+  font-size: 0.85rem;
+  color: #777;
+  margin-bottom: 0.5rem;
+}
+
+.property-card-description {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.property-card-actions {
+  margin-top: auto;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.property-card-link {
+  padding: 0.4rem 0.7rem;
+  border-radius: 4px;
+  background: #0044cc;
+  color: #fff;
+  font-size: 0.85rem;
+}
+
+.property-card-actions button {
+  padding: 0.4rem 0.7rem;
+  border-radius: 4px;
+  border: 1px solid #0044cc;
+  background: #fff;
+  color: #0044cc;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.property-card-actions button[disabled] {
+  border-color: #aaa;
+  color: #aaa;
+  cursor: default;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .property-card {
+    flex-direction: column;
+  }
+
+  .property-card-image-wrapper {
+    flex: 0 0 auto;
+  }
+}
