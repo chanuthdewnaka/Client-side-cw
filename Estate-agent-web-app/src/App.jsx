@@ -1,10 +1,10 @@
 import { useState, useMemo, useCallback } from 'react'
 import { Routes, Route, useNavigate } from 'react-router-dom'
 import propertiesData from './data/properties.json'
-import SearchForm from './components/SearchForm'
-import PropertyList from './components/PropertyList'
-import FavouritesList from './components/FavouritesList'
-import PropertyPage from './pages/PropertyPage'
+import SearchForm from './components/SearchForm/SearchForm.jsx'
+import PropertyList from './components/PropertyList/PropertyList.jsx'
+import FavouritesList from './components/FavouritesList/FavouritesList.jsx'
+import PropertyPage from './pages/PropertyPage.jsx'
 import './App.css'
 
 function App() {
@@ -156,7 +156,7 @@ function App() {
       </main>
 
       <footer className="app-footer">
-        <span>Sample property search demo (client-only).</span>
+        <span>©Copyright. All rights reserved.</span>
       </footer>
     </div>
   )

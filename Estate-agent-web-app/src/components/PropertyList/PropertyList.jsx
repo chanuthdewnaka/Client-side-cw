@@ -1,4 +1,4 @@
-import PropertyCard from './PropertyCard'
+import PropertyCard from '../PropertyCard/PropertyCard.jsx'
 import './PropertyList.css'
 
 const PropertyList = ({ properties, favourites, onAddFavourite }) => {
