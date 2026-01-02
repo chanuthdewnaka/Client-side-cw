@@ -10,17 +10,17 @@
       "longDescription": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
       "location": "Petts Wood Road, Petts Wood, Orpington BR5",
       "postcodeArea": "BR5",
-      "picture": "/images/prop1/prop1-main.jpg",
+      "picture": "images/prop1/prop1-main.jpg",
       "images": [
-        "/images/prop1/prop1-1.jpg",
-        "/images/prop1/prop1-2.jpg",
-        "/images/prop1/prop1-3.jpg",
-        "/images/prop1/prop1-4.jpg",
-        "/images/prop1/prop1-5.jpg",
-        "/images/prop1/prop1-6.jpg"
+        "images/prop1/prop1-1.jpg",
+        "images/prop1/prop1-2.jpg",
+        "images/prop1/prop1-3.jpg",
+        "images/prop1/prop1-4.jpg",
+        "images/prop1/prop1-5.jpg",
+        "images/prop1/prop1-6.jpg"
       ],
       "floorPlans": [
-        "/images/prop1/floorplan-1.png"
+        "images/prop1/floorplan-1.png"
       ],
       "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.6754936725865!2d0.08208490000000002!3d51.3906419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab82cc8f3cb1%3A0xc746da03b0c6c716!2sPetts%20Wood%20Rd%2C%20Petts%20Wood%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2slk!4v1766993763656!5m2!1sen!2slk",
       "url": "/properties/prop1.html",
@@ -40,17 +40,17 @@
       "longDescription": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms. This apartment being only five years old, is still under a 10 year building guarantee...",
       "location": "Crofton Road, Orpington BR6",
       "postcodeArea": "BR6",
-      "picture": "/images/prop2/prop2-main.jpg",
+      "picture": "images/prop2/prop2-main.jpg",
       "images": [
-        "/images/prop2/prop2-1.jpg",
-        "/images/prop2/prop2-2.jpg",
-        "/images/prop2/prop2-3.jpg",
-        "/images/prop2/prop2-4.jpg",
-        "/images/prop2/prop2-5.jpg",
-        "/images/prop2/prop2-6.jpg"
+        "images/prop2/prop2-1.jpg",
+        "images/prop2/prop2-2.jpg",
+        "images/prop2/prop2-3.jpg",
+        "images/prop2/prop2-4.jpg",
+        "images/prop2/prop2-5.jpg",
+        "images/prop2/prop2-6.jpg"
       ],
       "floorPlans": [
-        "/images/prop2/floorplan-1.png"
+        "images/prop2/floorplan-1.png"
       ],
       "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2490.6133282394!2d0.0719676!3d51.373404799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab6ac2bdc8d1%3A0xb0dde3c09939f924!2sCrofton%20Rd%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2slk!4v1766993893039!5m2!1sen!2slk",
       "url": "/properties/prop2.html",
@@ -71,17 +71,17 @@
       "longDescription": "Spacious four bedroom detached family home with generous living areas and a large south-facing garden. Ideal for families looking for extra space and excellent local schools.",
       "location": "Bromley Road, Bromley BR1",
       "postcodeArea": "BR1",
-      "picture": "/images/prop3/prop3-main.jpg",
+      "picture": "images/prop3/prop3-main.jpg",
       "images": [
-        "/images/prop3/prop3-1.jpg",
-        "/images/prop3/prop3-2.jpg",
-        "/images/prop3/prop3-3.jpg",
-        "/images/prop3/prop3-4.jpg",
-        "/images/prop3/prop3-5.jpg",
-        "/images/prop3/prop3-6.jpg"
+        "images/prop3/prop3-1.jpg",
+        "images/prop3/prop3-2.jpg",
+        "images/prop3/prop3-3.jpg",
+        "images/prop3/prop3-4.jpg",
+        "images/prop3/prop3-5.jpg",
+        "images/prop3/prop3-6.jpg"
       ],
       "floorPlans": [
-        "/images/prop3/floorplan-1.png"
+        "images/prop3/floorplan-1.png"
       ],
       "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.478676456352!2d-0.0154933!3d51.4310025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760202d2845ed3%3A0x85303fda6f231491!2sBromley%20Rd%2C%20United%20Kingdom!5e0!3m2!1sen!2slk!4v1766993968821!5m2!1sen!2slk",
       "url": "/properties/prop3.html",
@@ -101,17 +101,17 @@
       "longDescription": "Light and airy one bedroom flat ideal for first time buyers, offering open-plan living, modern kitchen and easy access to central London via nearby train station.",
       "location": "High Street, Orpington BR6",
       "postcodeArea": "BR6",
-      "picture": "/images/prop4/prop4-main.jpg",
+      "picture": "images/prop4/prop4-main.jpg",
       "images": [
-        "/images/prop4/prop4-1.jpg",
-        "/images/prop4/prop4-2.jpg",
-        "/images/prop4/prop4-3.jpg",
-        "/images/prop4/prop4-4.jpg",
-        "/images/prop4/prop4-5.jpg",
-        "/images/prop4/prop4-6.jpg"
+        "images/prop4/prop4-1.jpg",
+        "images/prop4/prop4-2.jpg",
+        "images/prop4/prop4-3.jpg",
+        "images/prop4/prop4-4.jpg",
+        "images/prop4/prop4-5.jpg",
+        "images/prop4/prop4-6.jpg"
       ],
       "floorPlans": [
-        "/images/prop4/floorplan-1.png"
+        "images/prop4/floorplan-1.png"
       ],
       "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2490.3478677180647!2d0.10138169999999999!3d51.3782843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ac8573d78f3b%3A0x7d522295673918bb!2sHigh%20St.%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2slk!4v1766994020822!5m2!1sen!2slk",
       "url": "/properties/prop4.html",
@@ -133,15 +133,15 @@
       "postcodeArea": "BR7",
       "picture": "/images/prop5/prop5-main.jpg",
       "images": [
-        "/images/prop5/prop5-1.jpg",
-        "/images/prop5/prop5-2.jpg",
-        "/images/prop5/prop5-3.jpg",
-        "/images/prop5/prop5-4.jpg",
-        "/images/prop5/prop5-5.jpg",
-        "/images/prop5/prop5-6.jpg"
+        "images/prop5/prop5-1.jpg",
+        "images/prop5/prop5-2.jpg",
+        "images/prop5/prop5-3.jpg",
+        "images/prop5/prop5-4.jpg",
+        "images/prop5/prop5-5.jpg",
+        "images/prop5/prop5-6.jpg"
       ],
       "floorPlans": [
-        "/images/prop5/floorplan-1.png"
+        "images/prop5/floorplan-1.png"
       ],
       "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2488.7619151922913!2d0.0458503!3d51.407429199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8aa4b32e28611%3A0xc55095467ee80433!2sChislehurst%20Rd%2C%20United%20Kingdom!5e0!3m2!1sen!2slk!4v1766994087213!5m2!1sen!2slk",
       "url": "/properties/prop5.html",
@@ -161,17 +161,17 @@
       "longDescription": "Modern three bedroom apartment located in a well-maintained block, offering balcony views, allocated parking, and easy access to local amenities.",
       "location": "Station Road, Sidcup DA15",
       "postcodeArea": "DA15",
-      "picture": "/images/prop6/prop6-main.jpg",
+      "picture": "images/prop6/prop6-main.jpg",
       "images": [
-        "/images/prop6/prop6-1.jpg",
-        "/images/prop6/prop6-2.jpg",
-        "/images/prop6/prop6-3.jpg",
-        "/images/prop6/prop6-4.jpg",
-        "/images/prop6/prop6-5.jpg",
-        "/images/prop6/prop6-6.jpg"
+        "images/prop6/prop6-1.jpg",
+        "images/prop6/prop6-2.jpg",
+        "images/prop6/prop6-3.jpg",
+        "images/prop6/prop6-4.jpg",
+        "images/prop6/prop6-5.jpg",
+        "images/prop6/prop6-6.jpg"
       ],
       "floorPlans": [
-        "/images/prop6/floorplan-1.png"
+        "images/prop6/floorplan-1.png"
       ],
       "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.466491636987!2d0.102241!3d51.4312263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8aea9d12c7be7%3A0x152f1feac99147a1!2sStation%20Rd%2C%20Sidcup%2C%20UK!5e0!3m2!1sen!2slk!4v1766994144626!5m2!1sen!2slk",
       "url": "/properties/prop6.html",
@@ -191,17 +191,17 @@
       "longDescription": "Charming two bedroom cottage offering character features, cosy living room with fireplace and courtyard style garden, located in a peaceful cul-de-sac.",
       "location": "Cottage Lane, Beckenham BR3",
       "postcodeArea": "BR3",
-      "picture": "/images/prop7/prop7-main.jpg",
+      "picture": "images/prop7/prop7-main.jpg",
       "images": [
-        "/images/prop7/prop7-1.jpg",
-        "/images/prop7/prop7-2.jpg",
-        "/images/prop7/prop7-3.jpg",
-        "/images/prop7/prop7-4.jpg",
-        "/images/prop7/prop7-5.jpg",
-        "/images/prop7/prop7-6.jpg"
+        "images/prop7/prop7-1.jpg",
+        "images/prop7/prop7-2.jpg",
+        "images/prop7/prop7-3.jpg",
+        "images/prop7/prop7-4.jpg",
+        "images/prop7/prop7-5.jpg",
+        "images/prop7/prop7-6.jpg"
       ],
       "floorPlans": [
-        "/images/prop7/floorplan-1.png"
+        "images/prop7/floorplan-1.png"
       ],
       "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.9302284582013!2d-0.039433499999999996!3d51.4227083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760184f3c639b7%3A0x21cebc3a6fe94001!2sKent%20House%20Ln%2C%20Beckenham%2C%20UK!5e0!3m2!1sen!2slk!4v1766994214874!5m2!1sen!2slk",
       "url": "/properties/prop7.html",
