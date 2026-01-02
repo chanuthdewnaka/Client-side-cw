@@ -113,7 +113,7 @@ function App() {
   return (
     <div className="app-shell">
       <header className="app-header">
-        <h1>Rightmove Style Property Search</h1>
+        <h1>Estate Agent Property Search</h1>
       </header>
 
       <main className="app-content">
