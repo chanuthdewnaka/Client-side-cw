@@ -1,3 +1,6 @@
+/* Styling for SearchForm component */
+
+/* Container for the search form section */
 .search-form-section {
   background: #fff;
   padding: 1rem;
@@ -10,12 +13,14 @@
   margin-bottom: 0.75rem;
 }
 
+/* Search form layout */
 .search-form {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
 }
 
+/* Fieldset styling */
 .search-fieldset {
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -27,21 +32,25 @@
   font-weight: 600;
 }
 
+/* Layout for a row of fields */  
 .field-row {
   display: flex;
   gap: 0.75rem;
 }
 
+/* Individual field item */
 .field-item {
   flex: 1;
 }
 
+/* Label and input styling */
 .search-form label {
   display: block;
   font-size: 0.9rem;
   margin-bottom: 0.25rem;
 }
 
+/* Input and select styling */
 .search-form input,
 .search-form select {
   width: 100%;
@@ -51,12 +60,14 @@
   font-size: 0.9rem;
 }
 
+/* Actions container */
 .search-actions {
   display: flex;
   gap: 0.5rem;
   justify-content: flex-end;
 }
 
+/* Button styling */
 .search-actions button {
   padding: 0.5rem 0.9rem;
   border-radius: 4px;
@@ -65,6 +76,7 @@
   font-size: 0.9rem;
 }
 
+/* Primary and secondary button styles */
 .search-actions button[type='submit'] {
   background: #0044cc;
   color: #fff;

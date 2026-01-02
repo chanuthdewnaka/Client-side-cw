@@ -1,3 +1,6 @@
+/* Favourites List Panel Styling */
+
+/* Container for the favourites panel */
 .favourites-panel {
   background: #fff;
   padding: 1rem;
@@ -8,6 +11,7 @@
   gap: 0.5rem;
 }
 
+/* Drag and drop area styling */
 .favourites-drop-area,
 .favourites-remove-drop {
   border: 2px dashed #999;
@@ -18,12 +22,14 @@
   color: #555;
 }
 
+/* Favourites list styling */
 .favourites-list {
   list-style: none;
   padding: 0;
   margin: 0.5rem 0;
 }
 
+/* Individual favourite item styling */
 .favourites-item {
   display: flex;
   justify-content: space-between;
@@ -33,6 +39,7 @@
   font-size: 0.9rem;
 }
 
+/* Favourite item button styling */
 .favourites-item button {
   padding: 0.3rem 0.6rem;
   border-radius: 4px;
@@ -43,6 +50,7 @@
   cursor: pointer;
 }
 
+/* Clear all favourites button styling */
 .favourites-clear-btn {
   margin-top: 0.25rem;
   padding: 0.4rem 0.7rem;
@@ -54,6 +62,7 @@
   cursor: pointer;
 }
 
+/* Disabled clear all favourites button styling */
 .favourites-clear-btn[disabled] {
   opacity: 0.5;
   cursor: default;

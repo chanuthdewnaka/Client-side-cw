@@ -1,3 +1,6 @@
+/* Additional styling for App component */
+
+/* Margin below search and results section */
 .search-and-results {
   margin-bottom: 1rem;
 }

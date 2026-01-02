@@ -1,7 +1,9 @@
+// Property page component to display detailed information about a property
 import { useState, useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import './PropertyPage.css'
 
+// Define tab constants
 const TABS = {
   DESCRIPTION: 'DESCRIPTION',
   FLOORPLAN: 'FLOORPLAN',
@@ -9,14 +11,22 @@ const TABS = {
 }
 
 const PropertyPage = ({ properties, favourites, onAddFavourite, onRemoveFavourite }) => {
+  // Get property ID from URL parameters
   const { id } = useParams()
+
+  // Find the property by ID
   const property = useMemo(
     () => properties.find((p) => p.id === id),
     [properties, id]
   )
+  // State: active image index for gallery and active tab
 
   const [activeImageIndex, setActiveImageIndex] = useState(0)
+
+  // State: active tab
   const [activeTab, setActiveTab] = useState(TABS.DESCRIPTION)
+
+  // Handle case when property not found
 
   if (!property) {
     return (
@@ -26,13 +36,20 @@ const PropertyPage = ({ properties, favourites, onAddFavourite, onRemoveFavourit
       </div>
     )
   }
+  // Check if property is in favourites
 
   const isFavourite = favourites.some((p) => p.id === property.id)
+
+  // Handlers for adding/removing favourites
 
   const handleAddFavourite = () => onAddFavourite(property)
   const handleRemoveFavourite = () => onRemoveFavourite(property.id)
 
+  // Handle thumbnail click to change active image
+
   const handleThumbnailClick = (index) => setActiveImageIndex(index)
+
+  // Determine main image to display
 
   const mainImage = property.images && property.images.length > 0
     ? property.images[activeImageIndex]
@@ -40,6 +57,7 @@ const PropertyPage = ({ properties, favourites, onAddFavourite, onRemoveFavourit
 
   return (
     <section className="property-page">
+      {/* Property header with basic info and favourite actions */}
       <header className="property-page-header">
         <Link to="/" className="back-link">← Back to search</Link>
         <h2>{property.type} - £{property.price.toLocaleString()}</h2>
@@ -59,12 +77,17 @@ const PropertyPage = ({ properties, favourites, onAddFavourite, onRemoveFavourit
           )}
         </div>
       </header>
+      {/* Property gallery and tabbed content */}
 
       <div className="property-page-layout">
+        {/* Image gallery */}
         <div className="property-page-gallery">
+          {/* Main image */}
           <div className="property-page-main-image">
             <img src={mainImage} alt={property.shortDescription} />
           </div>
+
+          {/* Thumbnails */}
           <div className="property-page-thumbnails">
             {(property.images || []).map((img, index) => (
               <button
@@ -79,7 +102,10 @@ const PropertyPage = ({ properties, favourites, onAddFavourite, onRemoveFavourit
           </div>
         </div>
 
+        {/* Tabbed content */}
+
         <div className="property-page-tabs">
+          {/* Tabs navigation */}
           <div className="tabs-header" role="tablist">
             <button
               type="button"
@@ -110,13 +136,18 @@ const PropertyPage = ({ properties, favourites, onAddFavourite, onRemoveFavourit
             </button>
           </div>
 
+          {/* Tabs body */}
+
           <div className="tabs-body">
+            {/* Description tab */}
             {activeTab === TABS.DESCRIPTION && (
               <div className="tab-panel">
                 <h3>Full description</h3>
                 <p>{property.longDescription}</p>
               </div>
             )}
+
+            {/* Floor plan tab */}
 
             {activeTab === TABS.FLOORPLAN && (
               <div className="tab-panel">
@@ -137,6 +168,8 @@ const PropertyPage = ({ properties, favourites, onAddFavourite, onRemoveFavourit
                 )}
               </div>
             )}
+            
+            {/* Map tab */}
 
             {activeTab === TABS.MAP && (
               <div className="tab-panel">

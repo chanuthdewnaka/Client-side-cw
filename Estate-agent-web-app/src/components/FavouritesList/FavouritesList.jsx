@@ -1,3 +1,4 @@
+// Favourites list component to display and manage favourite properties
 import './FavouritesList.css'
 
 const FavouritesList = ({
@@ -12,6 +13,8 @@ const FavouritesList = ({
     <aside className="favourites-panel" aria-labelledby="favourites-heading">
       <h2 id="favourites-heading">Favourite properties</h2>
 
+      {/* Drop area for adding favourites via drag-and-drop */}
+
       <div
         className="favourites-drop-area"
         onDrop={onDrop}
@@ -19,6 +22,7 @@ const FavouritesList = ({
       >
         <p>Drag a property card here or click favourite.</p>
       </div>
+      {/* Show empty message or list of favourites */}
 
       {favourites.length === 0 ? (
         <p className="favourites-empty">No favourites yet.</p>
@@ -35,6 +39,8 @@ const FavouritesList = ({
         </ul>
       )}
 
+      {/* Clear favourites button */}
+
       <button
         type="button"
         className="favourites-clear-btn"
@@ -43,6 +49,8 @@ const FavouritesList = ({
       >
         Clear favourites
       </button>
+      
+      {/* Drop area for removing favourites via drag-and-drop */}
 
       <div
         className="favourites-remove-drop"

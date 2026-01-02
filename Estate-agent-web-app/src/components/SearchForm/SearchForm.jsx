@@ -1,12 +1,18 @@
+// Search form component for filtering properties
 import { useState, useEffect } from 'react'
 import './SearchForm.css'
 
 const SearchForm = ({ onSearch, initialCriteria }) => {
+  // Local state for form inputs
   const [formState, setFormState] = useState(initialCriteria)
+
+  // Update form state when initialCriteria prop changes
 
   useEffect(() => {
     setFormState(initialCriteria)
   }, [initialCriteria])
+
+  // Handle input changes
 
   const handleChange = (event) => {
     const { name, value } = event.target
@@ -16,10 +22,14 @@ const SearchForm = ({ onSearch, initialCriteria }) => {
     }))
   }
 
+  // Handle form submission
+
   const handleSubmit = (event) => {
     event.preventDefault()
     onSearch(formState)
   }
+
+  // Handle form reset
 
   const handleReset = () => {
     const reset = {
@@ -40,6 +50,7 @@ const SearchForm = ({ onSearch, initialCriteria }) => {
     <section className="search-form-section" aria-labelledby="search-heading">
       <h2 id="search-heading">Search properties</h2>
       <form className="search-form" onSubmit={handleSubmit}>
+        {/* Property type selection */}
         <fieldset className="search-fieldset">
           <legend>Property type</legend>
           <label htmlFor="type">Type</label>
@@ -55,6 +66,7 @@ const SearchForm = ({ onSearch, initialCriteria }) => {
           </select>
         </fieldset>
 
+        {/* Price range selection */}
         <fieldset className="search-fieldset">
           <legend>Price range (£)</legend>
           <div className="field-row">
@@ -85,6 +97,8 @@ const SearchForm = ({ onSearch, initialCriteria }) => {
           </div>
         </fieldset>
 
+        {/* Bedrooms range selection */}
+
         <fieldset className="search-fieldset">
           <legend>Bedrooms</legend>
           <div className="field-row">
@@ -113,6 +127,8 @@ const SearchForm = ({ onSearch, initialCriteria }) => {
           </div>
         </fieldset>
 
+        {/* Date added selection */}
+
         <fieldset className="search-fieldset">
           <legend>Date added</legend>
           <div className="field-row">
@@ -139,6 +155,8 @@ const SearchForm = ({ onSearch, initialCriteria }) => {
           </div>
         </fieldset>
 
+        {/* Postcode area filter */}
+
         <fieldset className="search-fieldset">
           <legend>Location</legend>
           <label htmlFor="postcodeArea">Postcode area (e.g. BR1, BR6)</label>
@@ -151,6 +169,8 @@ const SearchForm = ({ onSearch, initialCriteria }) => {
             placeholder="Enter first part of postcode"
           />
         </fieldset>
+        
+        {/* Form action buttons */}
 
         <div className="search-actions">
           <button type="submit">Search</button>

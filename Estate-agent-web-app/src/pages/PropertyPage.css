@@ -1,3 +1,6 @@
+/* Property Page Styling */
+
+/* Container for the property page */
 .property-page {
   background: #fff;
   padding: 1rem;
@@ -5,10 +8,12 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
+/* Header section of the property page */
 .property-page-header {
   margin-bottom: 1rem;
 }
 
+/* Back link styling */
 .back-link {
   display: inline-block;
   margin-bottom: 0.5rem;
@@ -20,18 +25,21 @@
   margin-bottom: 0.25rem;
 }
 
+/* Property location styling */
 .property-page-location {
   font-size: 0.9rem;
   color: #555;
   margin-bottom: 0.25rem;
 }
 
+/* Property meta information styling */
 .property-page-meta {
   font-size: 0.85rem;
   color: #777;
   margin-bottom: 0.5rem;
 }
 
+/* Favourite actions container */
 .property-page-fav-actions button {
   padding: 0.45rem 0.8rem;
   border-radius: 4px;
@@ -42,30 +50,35 @@
   cursor: pointer;
 }
 
+/* Layout for the property page */
 .property-page-layout {
   display: grid;
   grid-template-columns: 2fr 3fr;
   gap: 1rem;
 }
 
+/* Gallery section styling */
 .property-page-gallery {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
 
+/* Main image styling */
 .property-page-main-image img {
   width: 100%;
   border-radius: 4px;
   object-fit: cover;
 }
 
+/* Thumbnails container styling */
 .property-page-thumbnails {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
 }
 
+/* Thumbnail button styling */
 .thumbnail-btn {
   border: none;
   padding: 0;
@@ -74,27 +87,32 @@
   cursor: pointer;
 }
 
+/* Thumbnail image styling */
 .thumbnail-btn img {
   width: 70px;
   height: 70px;
   object-fit: cover;
 }
 
+/* Active thumbnail styling */
 .thumbnail-btn.active {
   outline: 2px solid #0044cc;
 }
 
+/* Tabs container styling */
 .property-page-tabs {
   display: flex;
   flex-direction: column;
 }
 
+/* Tabs header styling */
 .tabs-header {
   display: flex;
   gap: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
+/* Individual tab styling */
 .tab {
   padding: 0.4rem 0.8rem;
   border-radius: 4px;
@@ -104,12 +122,14 @@
   font-size: 0.9rem;
 }
 
+/* Active tab styling */
 .tab.active {
   background: #0044cc;
   color: #fff;
   border-color: #0044cc;
 }
 
+/* Tabs body styling */
 .tabs-body {
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -120,12 +140,14 @@
   margin-bottom: 0.5rem;
 }
 
+/* Floorplan images styling */
 .floorplan-images {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
 }
 
+/* Individual floorplan image styling */
 .floorplan-image {
   max-width: 100%;
   width: 220px;
@@ -133,6 +155,7 @@
   border: 1px solid #ddd;
 }
 
+/* Map container styling */
 .map-container iframe {
   border-radius: 4px;
 }
